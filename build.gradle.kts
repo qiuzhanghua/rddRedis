@@ -25,8 +25,8 @@ dependencies {
     implementation("org.apache.spark:spark-core_2.12:3.3.0")
     implementation("org.apache.spark:spark-sql_2.12:3.3.0")
     implementation("org.jetbrains.kotlinx.spark:kotlin-spark-api-3.2:1.1.0")
-    implementation("org.codehaus.janino:janino:3.0.15") // keep 3.0.x for compatibility
-    implementation("org.codehaus.janino:commons-compiler:3.0.15") // keep 3.0.15 for compatibility
+    implementation("org.codehaus.janino:janino:3.0.16") // keep 3.0.x for compatibility
+    implementation("org.codehaus.janino:commons-compiler:3.0.16") // keep 3.0.16 for compatibility
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
